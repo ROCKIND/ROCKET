@@ -1,9 +1,7 @@
 class script(object):
     START_TXT = """<b>✨ Hᴇʟʟᴏ {}.
 
-Mʏ Nᴀᴍᴇ Is @PUBLIC_MOVIE_BOT.
-
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ!\n\nJᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ!\nJᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
