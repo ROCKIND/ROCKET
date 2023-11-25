@@ -183,7 +183,7 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @Developer_DM_Bot</b>
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Dᴇᴠᴇʟᴏᴘᴇʀ
 • ᴜꜱᴇʀɴᴀᴍᴇ : @Developer_DM_Bot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='@Developer_DM_Bot'>Dᴇᴠᴇʟᴏᴘᴇʀ</a></b>
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Developer_DM_Bot'>Dᴇᴠᴇʟᴏᴘᴇʀ</a></b>
 """
 
     KD_IMDB = """
