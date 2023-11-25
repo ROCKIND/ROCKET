@@ -80,8 +80,8 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 700))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
+DELETE_TIME = int(environ.get('DELETE_TIME', 800))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 40))
 
 # Url Shortner
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
