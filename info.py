@@ -24,7 +24,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/932f455a80aa9a26a7cb5.jpg https://telegra.ph/file/d1e194ee79eac633fccd5.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/d1e194ee79eac633fccd5.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/7db384d955159386d1060.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/7f40f3b87af6a3c2cb652.jpg https://telegra.ph/file/4dc9c66df41c6197a3144.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/09f7e668849d3c52fd9aa.jpg")
 
 # Admins, Channels & Users
@@ -61,7 +61,7 @@ RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001687647933))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "[{file_name}](https://t.me/SG_Movies1)\n\n<b>Join Our Channel @saurabh_1710 🙏🏻💝")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "[{file_name}](https://t.me/saurabh_1710)\n\n<b>Fᴏʀ Oᴛʜᴇʀ (HD) Mᴏᴠɪᴇꜱ, Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ @SG_Mᴏᴠɪᴇꜱ𝟷 🙏🏻💝")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>{mention}'s Qᴜᴇʀʏ ☞ <code>{query}</code>\n\n<b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n💀 Rᴇʟᴇᴀsᴇ :  <b>{release_date}</b> <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>#{genres}</b></b>\n\n<b>")
 KD_IMDB_TEMPLATE = environ.get("KD_IMDB_TEMPLATE", "<b><b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>{genres}</b></b>\n\n<b>")
