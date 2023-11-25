@@ -86,7 +86,7 @@ async def start(client, message):
             except (IndexError, ValueError):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
-            photo="https://telegra.ph/file/09f7e668849d3c52fd9aa.jpg",
+            photo="https://telegra.ph/file/09f7e668849d3c52fd9aa.jpg https://telegra.ph/file/d1e194ee79eac633fccd5.jpg",
             chat_id=message.from_user.id,
             caption=(script.FORCE_SUB),
             reply_markup=InlineKeyboardMarkup(btn),
