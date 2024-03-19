@@ -36,7 +36,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 REACT = ["🔥", "❤️", "😍", "⚡"]
 
-@Client.on_message(filters.private & filters.text & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
+@Client.on_message(filters.private & filters.text & filters.group & filters.incoming & filters.chat & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
     await message.react(emoji=random.choice(REACT))
     kd = await global_filters(client, message)
