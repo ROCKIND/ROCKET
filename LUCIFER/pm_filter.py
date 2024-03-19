@@ -34,9 +34,11 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
+REACT = ["🔥", "❤️", "😍", "⚡"]
 
 @Client.on_message(filters.private & filters.text & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
+    await message.react(emoji=random.choice(REACT))
     kd = await global_filters(client, message)
     if kd == False:
         await auto_filter(client, message)
@@ -45,6 +47,7 @@ async def pv_filter(client, message):
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_GROUP:
         await global_filters(client, message)
+        await message.react(emoji=random.choice(REACT))
     mf = await manual_filters(client, message)
     if mf == False:
         settings = await get_settings(message.chat.id)
